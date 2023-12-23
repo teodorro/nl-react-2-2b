@@ -2,13 +2,14 @@ import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
+import IconSwitch from "./components/IconSwitch";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <>
-      <button className="material-icons">face</button>
+    <div>
+      <IconSwitch iconName='view_list' onSwitch={() => {}}/>
       <div>
         <a
           href="https://vitejs.dev"
@@ -43,7 +44,7 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
-    </>
+      </div>
   );
 }
 
