@@ -2,14 +2,14 @@ import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
-import IconSwitch from "./components/IconSwitch";
+import Store from "./components/Store";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <div>
-      <IconSwitch iconName='view_list' onSwitch={() => {}}/>
+      <Store/>
       <div>
         <a
           href="https://vitejs.dev"
