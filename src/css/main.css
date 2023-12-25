@@ -1,24 +1,10 @@
-/* @font-face {
-  font-family: "Material Icons";
-  font-style: normal;
-  font-weight: 400;
-  src: url(https://fonts.gstatic.com/s/materialicons/v140/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format('woff2');
-} */
-
 body {
   background-color: white;
   margin: 0px;
 }
 
 .store{
-  /* border: 5px solid #00f; */
-  /* background-color:#00f; */
-  /* position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  width: 100%;
-  height: 100%; */
+
 }
 
 .icon-switch-button {
@@ -32,7 +18,6 @@ body {
 }
 
 .cards-view {
-  border: 1px solid #000;
   padding: 3em 2em;
   width: 100%;
   display: flex;
@@ -60,7 +45,6 @@ body {
   z-index: 2;
 }
 .shop-card-footer {
-  border: 1px solid #000;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -89,7 +73,6 @@ body {
   position: relative;
   width: 100%;
   height: 100%;
-  /* border: 1px solid #000;; */
 }
 
 .shop-card-header-name {
