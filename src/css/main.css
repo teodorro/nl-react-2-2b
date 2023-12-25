@@ -95,10 +95,10 @@ body {
 }
 .shop-card-price {
   font-family: "Asap Condensed", sans-serif;
-  font-size: larger;
+  font-size: x-large;
   text-transform: uppercase;
   color: red;
-  margin-top: 0.6em;
+  margin-top: 0.4em;
 }
 .shop-cart-button {
   text-transform: uppercase;
@@ -115,18 +115,15 @@ button.shop-cart-button:hover {
 }
 
 .list-view {
-  /* border: 1px solid #f00; */
-  /* display: flex; */
   color: #000;
   width: 100%;
-  margin: 0 auto;
+  margin: 4em auto;
 }
 .shop-item {
   height: 95px;
   width: 100%;
   background-color: whitesmoke;
   display: flex;
-  border: 1px solid #000;
   margin: 0.1em;
   overflow: hidden;
   box-sizing: border-box;
@@ -167,8 +164,8 @@ button.shop-cart-button:hover {
   background-color: whitesmoke;
   border: 1px solid #f00;
   border-radius: 2em;
-  margin: auto 1em;
-  padding: 0.5em;
+  margin: auto 1.5em;
+  padding: 0.5em 1.25em;
 }
 button.shop-item-button:hover {
   color: whitesmoke;

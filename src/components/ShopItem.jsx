@@ -8,7 +8,7 @@ export default function ShopItem({product}) {
     <div className="shop-item-name">{product.name}</div>
     <div className="shop-item-color">{product.color}</div>
     <div className="shop-item-price">${product.price}</div>
-    <div className="shop-item-button">Add to cart</div>
+    <button className="shop-item-button">Add to cart</button>
   </div>
   </>)
 }
