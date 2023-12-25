@@ -5,8 +5,8 @@ import "./css/main.css"
 function App() {
 
   return (
-    <div>
-      <Store className="store"/>
+    <div className="store">
+      <Store/>
     </div>
   );
 }
