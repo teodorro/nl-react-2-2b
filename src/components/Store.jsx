@@ -90,10 +90,10 @@ export default function Store() {
             : setIconName("view_list");
         }}
       />
-      <div className={iconName === "view_module" ? "cards-view" : "hidden"}>
+      <div className={iconName === "view_list" ? "cards-view" : "hidden"}>
         <CardsView products={products} />
       </div>
-      <div className={iconName === "view_module" ? "hidden" : "list-view"}>
+      <div className={iconName === "view_list" ? "hidden" : "list-view"}>
         <ListView products={products} />
       </div>
     </>
