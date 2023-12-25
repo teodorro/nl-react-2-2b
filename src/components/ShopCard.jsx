@@ -23,6 +23,7 @@ export default function ShopCard({ product }) {
           <img
             className="shop-card-img"
             src={product.img}
+            alt={product.name}
           ></img>
         </div>
       </div>
